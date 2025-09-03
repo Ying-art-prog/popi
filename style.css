@@ -13,6 +13,10 @@ body {
     --colorFive: #333333;
 }
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: var(--colorOne);
     color: var(--colorTwo);
     padding: 20px 0;
